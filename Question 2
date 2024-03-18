@@ -1,0 +1,103 @@
+<--! html code : Question 2 >
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Question2.css" />
+    <title>Question 2</title>
+  </head>
+  <body>
+    <h1 style="color: red">Information Technology Module</h1>
+    <table>
+      <tr>
+        <th>DIPLOMA IT STUDENTS</th>
+        <th>BSC IT STUDENTS</th>
+        <th>HIGHER CERTIFICATE</th>
+      </tr>
+
+      <tr>
+        <td>Web Technology 511A</td>
+        <td>Web Technology 511B</td>
+        <td>Intro to Web technology 500</td>
+      </tr>
+
+      <tr>
+        <td>Network 511A</td>
+        <td>Network 511B</td>
+        <td>Intro to computer 500</td>
+      </tr>
+
+      <tr>
+        <td>Information Systems 511A</td>
+        <td>Information Systems 511B</td>
+        <td>E-Commerce 511</td>
+      </tr>
+
+      <tr>
+        <td>Business communications 500A</td>
+        <td>Business communications 500B</td>
+        <td>Business communications 500D</td>
+      </tr>
+    </table>
+
+    <div id="Lecturer">
+      <h1 style="text-decoration: underline;">Lecturers Names</h1>
+
+      <ul>
+        <li>jane Sebolani</li>
+        <li>Unity Melani</li>
+        <li>Mathapelo Muchumayin</li>
+      </ul>
+
+      <h1>Departments</h1>
+      <ul style="list-style-type: circle">
+        <li>MCIT</li>
+        <li>MCIT</li>
+        <li>BEMS</li>
+      </ul>
+
+      <h1>IT Specialization</h1>
+      <ol type="A">
+        <li>Network</li>
+        <li>Internet programme</li>
+        <li>programming</li>
+      </ol>
+
+      <h1 style="color: grey;">Registration date</h1>
+      <ol type="i">
+        <li>2023</li>
+        <li>2024</li>
+        <li>2025</li>
+      </ol>
+
+      <h1 style="color: red;">campus</h1>
+      <ol>
+        <li>Newtown campus</li>
+        <li>Newtown campus</li>
+        <li>Netown campus</li>
+      </ol>
+    </div>
+  </body>
+</html>
+
+<--!css code >
+
+table {  border: 2px solid;
+         width: 85%;
+
+}
+th,td { padding: 8pt;
+        
+        border: 1px solid;
+}
+th {
+    background-color:  lightgray;
+    width: 50px;
+} 
+div {
+
+   width: 400px;
+   height: 700px;
+   background-color: yellow;
+}
