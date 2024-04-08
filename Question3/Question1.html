@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+<body>
+ <style>
+  #formOut{
+    border: 2px solid black;
+    width: 400px;
+    height: 700px;
+    padding: 40px;
+    background-color: white;
+  }
+  form{
+    background-color: white;
+
+  }
+  #text,#email{
+    border-radius: 20px;
+    height: 30px;
+    width: 230px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #164fb9; /* Light blue */
+    height: 100vh;
+    display: flex;
+    position: relative;
+    background-image: url("Cape-Town-1.webp");
+    background-size: cover;
+   
+  }
+ </style> 
+<header>
+
+</header>
+<div id="formOut">
+   <form method="post" action="submit.php" >
+   
+    <input type="text" placeholder="name" id="text"> <br><br>
+    
+    <input type="email" placeholder="example@email" id="text"><br><br>
+
+    <h3> what did you like most about the campus</h3>
+
+  <input type="checkbox" id="Campus" >
+  <label for="campus">campus</label><br>
+  
+  <input type="checkbox" id="students" >
+  <label for="students">students</label><br>
+  
+  <input type="checkbox" id="Location" >
+  <label for="Location">Location</label><br>
+
+  <input type="checkbox" id="Atmosphere">
+  <label for="Atmosphere">Atmosphere</label><br>
+
+  <input type="checkbox" id="Dorm rooms" >
+  <label for="Dorm rooms">Dorm rooms</label><br>
+
+  <input type="checkbox" id="Sports" >
+  <label for="Sports">Sports</label><br>
+
+  <h3> how did we intereste you  in the college</h3>
+
+  <input type="radio" id="Friends"  value="Friends">
+  <label for="Friends">Friends</label><br>
+  
+  <input type="radio" id="Television"  value="Television">
+  <label for="Television">Television</label><br>
+  
+  <input type="radio" id="internet" value="internet">
+  <label for="internet">internet</label><br>
+
+  <input type="radio" id="other" value="other">
+  <label for="other">other</label><br>
+ <h4>Comments</h4>
+  <textarea name="textarea" id="txtArea" cols="30" rows="10"></textarea> <br><br>
+   
+  <input type="submit">
+
+</form>
+</div>
+    
+</body>
+</html>
